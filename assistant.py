@@ -16,8 +16,6 @@ def speak(audio):
     engine.runAndWait()
 
 
-
-
 def GreetMe():
     hour = int(datetime.datetime.now().hour)
     if hour>=0 and hour<12:
@@ -30,7 +28,6 @@ def GreetMe():
         speak("Good Evening how are you doing")  
 
     speak("I am your virtual assistant. Please tell me how may I help you")       
-
 
 
 def takeCommand():
